@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Super Video Game Analysis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style type="css">
+			.box { display:inline-block; }
+		</style>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">#SVGA</a>
+					</header>
+
+				<!-- Nav -->
+					<!-- <nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">This is Massively</a></li>
+							<li class="active"><a href="generic.html">Generic Page</a></li>
+							<li><a href="elements.html">Elements Reference</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav> -->
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">April 25, 2018</span>
+									<h1>Super Video Game Analysis</h1>
+								</header>
+
+								<p>Both member of our group like games. We enjoy novel games with astonishing effects, but also appreciate classical ones that never fade in time. Feiran’s practicum is at Ubisoft, a lead game publisher. This also motivated our team, because after doing the practicum in a video game company’s marketing department, we see a real potential in the market.<br />
+								Thus, we decided to do some analysis on the video game industry. We want to know what are the important factors that decide how many copies of a game will be sold, and we also want to see if there are any temporal trend in game genres, platforms, users as well as producers and publishers who made the game. It will be fun for gamers to know more about the industry, and what’s more, it might be useful for industry players to see some interesting trends that they have not considered about.
+								</p>
+
+
+<!-- ############################################ -->
+<!-- ########### Page 1 Graph 1: Map ############ -->
+<!-- ############################################ -->
+								<h2>Overview of the gaming market</h2>
+								<div id="p1g1_code">
+									<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~atlasgcx/85.embed"></iframe>
+								</div>
+								<p>TEXT MISSING!</p>
+
+<!-- ####################################################################################### -->
+<!-- ########### Page 1 Graph 2: (time series) Game Sales in Different Regions ############# -->
+<!-- ####################################################################################### -->
+
+<!-- ################################################################################ -->
+<!-- ########### Page 2 Graph 1: Game Sales of Different Genre Over Year ############ -->
+<!-- ################################################################################ -->
+
+								<div id="p2g1_code">
+									<iframe width="900" height="400" frameborder="0" scrolling="no" src="//plot.ly/~atlasgcx/47.embed" align="middle"></iframe>
+    							</div>
+								<p>The graph above shows the total sales for games released over years by genre, and gives us a general understanding of how sales of different genres evolved in gaming history<br />
+								Before 1995, platform game was the most popular genre among all video games. In a platform game,  the player controls a character to jump between suspended platforms and avoid obstacles. Famous examples include Super Mario, Sonic the Hedgehog, Mega Man.<br />
+								However, from 1995, other genres’ sales has increased, perhaps because there is nearly no new mechanics or innovation in platform games during those years. For example, it’s hard for platform games to transit to 3D. After 2005, Action and sport were the 2 dominant genres. Misc and shooting were also very popular. 
+								</p>
+								<p>To further understand how game market evolved in the history, we can also look at games with different ratings.</p>
+
+<!-- ######################################################################################## -->
+<!-- ########### Page 2 Graph 2: Rating Distribution Over Years ############################# -->
+<!-- ######################################################################################## -->
+
+								<div id="p2g2_code">
+									<iframe width="900" height="400" frameborder="0" scrolling="no" src="//plot.ly/~atlasgcx/49.embed" align="middle"></iframe>
+								</div>
+								<p>This graph shows the percentage of total sales for game released in a certain year by their <a href="http://www.esrb.org/">ESRB</a> rating.  Old games released prior year 2000 doesn't have a rating collected, thus we only consider relatively new games.<br />
+								The labels have following meanings:
+								<ul>
+									<li>NoR: missing rating information</li>
+									<li>M: Mature 17+</li>
+									<li>T: Teen</li>
+									<li>E10+: Everyone 10+</li>
+									<li>E: Everyone</li>
+								</ul>
+								From the plot, we can see that overall the percentage of E rating games had a decreasing trend, and percentage of M rating games was increasing. This shows a trend that more and more games were published for adults more than 17+ because this market was more profitable. 
+								</p>
+
+								<h2>Take a look at individual games</h2>
+
+								<p>With a brief understanding of the game market, we might be interested in which game were the best-selling ones over the years.</p>
+
+<!-- ####################################################################### -->
+<!-- ########### Page 2 Graph 3: Top 100 Games ############################# -->
+<!-- ####################################################################### -->
+
+								<div id="p2g3_code">
+									<iframe width="900" height="700" frameborder="0" scrolling="no" src="//plot.ly/~atlasgcx/53.embed" align="middle"></iframe>
+								</div>
+								<p>This graph shows information about the Top 100 best selling games. Specifically, the critics' scores are on the y-axis, the copies sold is represented as the area of each bubble, and the color shows the genre of the game.<br />
+
+								As the dataset only contains games with at least 10,000 copies sold, this graph also reflects the bias of the data collected. When old games were released, the whole video game market was less mature, thus harder for a game to sell 10,000 copies than it is now. Thus, the data we collected will have less old games.<br />
+
+								From this plot, we can see that for games before 2005, if they sell well, then they are more likely to have a higher critic score. However, after 2005, there were some ‘low critic score games’ that sell a lot. We find that that these games are all party games. Our best guess is that the major game critics were more of so called ‘hardcore’ gamers, and they didn’t find the party games comparable to other great games like ‘Grand Theft Auto’, ‘Super Mario Bros.’ and ‘Final Fantasy VII’. Ordinary players on the other hand, tend to enjoy lite, casual games, and these players contributed a lot to the sales of a game.<br />
+
+								Another interesting fact we noticed is that Wii Sports is the best-selling game for all time. The main reason may be that the game was included as a pack-in game with Wii console in all territories except Japan and South Korea. The bundle was a success because Wii Sports also added value to the package instead of just a “given-away” for buying the console.
+								</p>
+
+								<h2>Platform war never ends</h2>
+
+								<p>Looking at other games in the graph, we found there are a lot of other Wii games appear. Does the console(s) a game published on affects its sales a lot? Let’s do some analysis on different consoles.</p>
+
+<!-- ############################################ -->
+<!-- ############### Page 3 Graph 1 ############# -->
+<!-- ############################################ -->
+
+								<div id="p3g1">
+									<iframe width="900" height="400" frameborder="0" scrolling="no" src="//plot.ly/~feiranji/17.embed" align="middle"></iframe>
+								</div>
+								<p>This graph reflects the number of games released in each year by platform series. We define platform series as follows:
+									<ul>
+										<li>Nintendo: NES, SNES, N64, GC, Wii, WiiU, GB, GBA, DS, 3DS</li>
+										<li>Sony: PS, PS2, PS3, PS4, PSP, PSV</li>
+										<li>Microsoft: Xbox, Xbox360, XboxOne</li>
+										<li>Other: GEN, SCD, DC, GG, 2600, 3DO, NG, PCFX, TG16, SAT, WS, PC</li>
+									</ul>
+								From the plot, we can see that Sony and Nintendo have more games released than MS and other platforms. Also, Nintendo has a quite bright grid in 2008, after their Wii and DS console launched. In 2008, Nintendo won the gaming market with Wii Play, Wii Fit, Mario Kart and Guitar Hero. If we look at Nintendo’s shares, we can see it also had a peak around 2008.</p>
+
+								<p>We created the following multigraph to further compare different platform series.</p>
+<!-- ############################################ -->
+<!-- ############### Page 3 Graph 2 ############# -->
+<!-- ############################################ -->
+
+								<div id="p3g2">
+									<iframe width="50%" height="420" frameborder="0" scrolling="no" src="//plot.ly/~feiranji/9.embed" align="left"></iframe>
+
+<!-- ############################################ -->
+<!-- ############### Page 3 Graph 3 ############# -->
+<!-- ############################################ -->
+									<iframe width="50%" height="420" frameborder="0" scrolling="no" src="//plot.ly/~feiranji/11.embed" align="left"></iframe>
+								</div>
+
+<!-- ############################################ -->
+<!-- ############### Page 3 Graph 4 ############# -->
+<!-- ############################################ -->
+
+								<div id="p3g4">
+									<iframe width="50%" height="420" frameborder="0" scrolling="no" src="//plot.ly/~feiranji/13.embed" align="left"></iframe>
+
+<!-- ############################################ -->
+<!-- ############### Page 3 Graph 5 ############# -->
+<!-- ############################################ -->
+									<iframe width="50%" height="420" frameborder="0" scrolling="no" src="//plot.ly/~atlasgcx/73.embed" align="left"></iframe>
+								</div>
+
+								<p>From the top left graph, we can see Nintendo, Sony and MS have a slightly different focus on genres of games. For example, there are more Misc games on Nintendo consoles compare to other consoles. Also, MS consoles have a larger proportion of sports, action and shooter games.<br />
+								From the top right graph, we can see that Nintendo consoles have more “E”(everyone) games, and Sony and MS consoles have more “T”(teenager) and “M” games.<br />
+								From the bottom left graph, we can see an interesting fact: Microsoft consoles have nearly 0 sales in Japan. Also, not surprisingly, Nintendo is the most popular console brand in Japan and North America, while Europe likes Sony consoles better.<br />
+								And from the bottom right graph, one obvious trend is that the number of games released on Nintendo platforms was largely decreased after the year 2011, due to the unsuccessful release of the Wii U console.<br />
+								</p>
+
+								<p>With that, we now have a better understanding of the historical trend of the gaming market.</p>
+							</section>
+					</div>
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<!-- <section>
+							<form method="post" action="#">
+								<div class="field">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" />
+								</div>
+								<div class="field">
+									<label for="email">Email</label>
+									<input type="text" name="email" id="email" />
+								</div>
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="3"></textarea>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section> -->
+						<section class="split contact">
+							<!-- <section class="alt">
+								<h3>Address</h3>
+								<p>1234 Somewhere Road #87257<br />
+								Nashville, TN 00000-0000</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(000) 000-0000</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">info@untitled.tld</a></p>
+							</section> -->
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Chenxi GE / Feiran JI</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
